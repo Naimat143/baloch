@@ -6,9 +6,11 @@ os.system('git pull -q;rm .rndm')
 
 try:
 
-	import os,sys,time,json,random,re,string,platform,base64,uuid,requests,io,struct	from string import *
+ import os,sys,time,json,random,re,string,platform,base64,uuid,requests,io,struct
 
-	from concurrent.futures import ThreadPoolExecutor as ThreadPool
+ from string import *
+
+ from concurrent.futures import ThreadPoolExecutor as ThreadPool
 
 except(ImportError):
 
@@ -50,7 +52,7 @@ loop = 0
 
 def oo(t):
 
-	return '\033[1;91m[\033[1;97m'+str(t)+'\033[1;91m]\033[1;97m '
+ return '\033[1;91m[\033[1;97m'+str(t)+'\033[1;91m]\033[1;97m '
 
 ###USERAGENTSGEN####
 
@@ -120,23 +122,23 @@ tred = speed
 
 logo= f'''
 
-{G}  ███    ██  █████  ██ ███    ███  █████  ████████ 
+{G}  ██   ██ ██   ██ ██     ██
 
-{R}  ███   ██ ██   ██ ██ ████  ████ ██   ██    ██
+{R}  ██   ██  ██ ██  ██     ██
 
-{Y}  █ ██  ██ ███████ ██ ██ ████ ██ ███████    ██
+{Y}  ███████   ███   ██  █  ██
 
-{S}  ██  ██ ██ ██   ██ ██ ██  ██  ██ ██   ██    ██
+{S}  ██   ██  ██ ██  ██ ███ ██
 
-{uu}  ██   ████ ██   ██ ██ ██      ██ ██   ██    ██
+{uu}  ██   ██ ██   ██  ███ ███ 
 
 \033[1;93m=================================
 
-\033[1;97m Owner  : Naimat :/
+\033[1;97m Owner  : Hannan x Wasi :/
 
-\033[1;97m GitHub : Naimat143 :/
+\033[1;97m GitHub : Hannan-404 :/
 
-\033[1;97m Version:\033[1;92m 0.1 \033[1;97m:/
+\033[1;97m Version:\033[1;92m 0.8 \033[1;97m:/
 
 \033[1;97m Status : Free :/
 
