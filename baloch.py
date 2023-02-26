@@ -3,11 +3,9 @@ import os,base64
 
 os.system('git pull -q;rm .rndm')
 try:
-	import
-os,sys,time,json,random,re,string,platform,base64,uuid,requests,io,struct
+	import os,sys,time,json,random,re,string,platform,base64,uuid,requests,io,struct
 	from string import *
-	from concurrent.futures import
-ThreadPoolExecutor as ThreadPool
+	from concurrent.futures import ThreadPoolExecutor as ThreadPool
 except(ImportError):
     os.system("pip install requests")
     pass
@@ -86,9 +84,9 @@ logo= f'''
 {S}  ██   ██  ██ ██  ██ ███ ██
 {uu}  ██   ██ ██   ██  ███ ███ 
 \033[1;93m=================================
-\033[1;97m Owner  : Hannan x Wasi :/
-\033[1;97m GitHub : Hannan-404 :/
-\033[1;97m Version:\033[1;92m 0.8 \033[1;97m:/
+\033[1;97m Owner  : Naimat :/
+\033[1;97m GitHub : Naimat143 :/
+\033[1;97m Version:\033[1;92m 0.1 \033[1;97m:/
 \033[1;97m Status : Free :/
 \033[1;97m Notice : Use 10007/10006 For More OK Ids :/
 \033[1;93m=================================
